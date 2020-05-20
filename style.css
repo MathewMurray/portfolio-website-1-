@@ -1,18 +1,18 @@
 /* setting the stage for my body,header and footer tags*/
+/*this css page will follow after normalize.css so as not to be overwritten*/
 body {
   margin:0;
   background-image: url("images/shattered-island.gif");
 }
-
+/*like I noted in the html page, I toyed around with a few background images for the header*/
 header {
 	height: 140px;
-	background-color:slategrey;
+	background-color:rgb(96, 97, 99);
 
 }
 
 footer {
-	height: 84px;
-	background-color:slategrey;
+	height: 80px;
   background-image: url("images/abstract-header.jpg");
 }
 
@@ -53,7 +53,7 @@ h1 { font-size: 38px;}
 h2 { font-size: 30px;}
 
 p, li {
-	font-family: 'Roboto' sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #ebe2d1;
 	font-size: 18px;
 	font-weight: 400;
@@ -89,5 +89,9 @@ hr { border: .5px solid #cac5c1;}
 /*spacer assignments*/
 .gap-sm {
     height: 50px;
+    width: auto;
+}
+.gap-footer {
+    height: 10px;
     width: auto;
 }
