@@ -1,0 +1,93 @@
+/* setting the stage for my body,header and footer tags*/
+body {
+  margin:0;
+  background-image: url("images/shattered-island.gif");
+}
+
+header {
+	height: 140px;
+	background-color:slategrey;
+
+}
+
+footer {
+	height: 84px;
+	background-color:slategrey;
+  background-image: url("images/abstract-header.jpg");
+}
+
+.wrapper {
+	width: 500px;
+	margin: auto;	
+}
+
+img {
+  width: 100%;	
+}
+/*defined text style,color,and type elements for header h1 and h2*/
+header h1 {
+	font-family:'Bitter',serif;
+	color: #e8eaed;
+	margin: 0px;
+	padding-top: 20px;
+	font-size: 50px;
+	text-align:center;
+}
+
+header h2 {
+	font-family:'Open Sans', sans-serif;
+	color: #e8eaed;
+	margin: 0px;
+	padding-top: 20px;
+  padding-bottom:20px;
+	font-size: 30px;
+	text-align: center;
+}
+/* defines color,font, and alignments and various other elements of <h1><h2><p><li> tags*/
+h1, h2 {
+	color: #e1e7ed;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 { font-size: 38px;}
+h2 { font-size: 30px;}
+
+p, li {
+	font-family: 'Roboto' sans-serif;
+	color: #ebe2d1;
+	font-size: 18px;
+	font-weight: 400;
+    line-height: 26px;
+}
+/*link formmatting(color change based on state)*/
+a {
+	font-weight: 700;
+	text-decoration: none;	
+}
+
+a:link { color: #77f3d8; }
+a:visited { color: #08f7c3; }
+a:hover { color: #cf7d35; }
+a:active { color: #914d12; }
+
+/* adds an underline element to link text when you hover over it.*/
+a:hover {
+	text-decoration: underline;	
+}
+/*footer text elements*/
+footer p {
+	color: rgb(235, 201, 201);	
+	text-align: center;
+}
+
+
+/*setting img and hard return line dimentions.*/
+
+img{ border-radius: 10px;} 
+hr { border: .5px solid #cac5c1;}
+
+/*spacer assignments*/
+.gap-sm {
+    height: 50px;
+    width: auto;
+}
