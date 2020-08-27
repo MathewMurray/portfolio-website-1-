@@ -25,6 +25,7 @@
     <header>
       <!-- top most section of profile page, hosts h1 and h2 introductions-->
       <section class = "wrapper">
+        <div class = "title">Mathew Murray</div>
         <!--i wanted to apply a boarder image here, but just couldnt find one I liked with my background settings-->
         <h1> Mathew Murray</h1>
         <h2> Software Engineer</h2>
@@ -34,7 +35,7 @@
     
       <div class = "group">
       <!--link to profile.jpg to display my handsome mug-->
-      <div class = "item"><img src= "images/profile.jpg" class = "image circle" alt="Mathew Murray - profile photo"></div>
+      <div class = "item"><img src= "images/profile.jpg" class = "image" alt="Mathew Murray - profile photo"></div>
   
   
       <!--introduction and my story
@@ -57,7 +58,7 @@
     <section class = "bg-callout">
       <!--this section was the hardest. its funny how talking about yourself can be so daunting at times. -->
       <div class = "wrapper">
-      <h2 id="about">About Me:</h2>
+      <h3 id="about">About Me:</h3>
         <div class = "group">
           <div class = "item">
         <img src= "images/gear-symbol.jpg" alt= "gears of change" class= "rounded">
@@ -113,6 +114,25 @@
     <section>
       <h2 id="contact">Contact Me</h2>
         <p> Please feel free to contact me. </p>
+        <!-- modify this form HTML and place wherever you want your form -->
+
+<form
+action="https://formspree.io/mwkrnzdq"
+method="POST"
+>
+<label>
+  Your email:
+  <input type="text" name="_replyto">
+</label>
+<label>
+  Your message:
+  <textarea name="message"></textarea>
+</label>
+
+<!-- your other form fields go here -->
+
+<button type="submit">Send</button>
+</form>
         <!-- listing out my contact links-->
         <ol>
           <li><a href="http://www.linkedin.com/in/mathew-murray-3a49aa120" target="_blank">LinkedIn</a></li>
