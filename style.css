@@ -2,7 +2,13 @@
 /*this css page will follow after normalize.css so as not to be overwritten*/
 body {
   margin:0;
-  background-image: url("images/shattered-island.gif");
+	background-image: url("images/shattered-island.gif");
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+	display: none;
 }
 /*like I noted in the html page, I toyed around with a few background images for the header*/
 header {
@@ -31,7 +37,7 @@ label{
 }
 
 img {
-  width: 75%;	
+  width: -webkit-fill-available;	
 }
 img.rounded{
 	width:50px;
@@ -44,7 +50,6 @@ header h1 {
 	color: #e8eaed;
 	margin: 0px;
 	padding-top: 20px;
-	font-size: 50px;
 	text-align:center;
 }
 
